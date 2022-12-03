@@ -8,17 +8,17 @@
 
 define("WEBSITE" ,"yahoo.com" );
 echo "the website name is " .WEBSITE ;
-
+echo "<br>";
 //********************************** */
 
 // the third assignment
-echo "<pre>";
+
 print_r(" server name ---> ".$_SERVER['SERVER_NAME']) ;
 echo "<br>";
  print_r("server address --> " .$_SERVER['SERVER_ADDR']);
  echo "<br>";
 print_r("server port --> ".$_SERVER['SERVER_PORT']) ;
-"</pre>";
+
 echo"<br>";
 
 //********************************** */
